@@ -18,7 +18,7 @@ const Contact = () => {
           </a>
         </p>
         <p>
-          <a href="https://linkedin.com/in/mohamed-nour-ben-salah" target="_blank" rel="noopener noreferrer" style={styles.link}>
+          <a href="https://www.linkedin.com/in/med-nour-ben-salah-19b1a8286" target="_blank" rel="noopener noreferrer" style={styles.link}>
             {t('contact.linkedin', lang)}
           </a>
         </p>
