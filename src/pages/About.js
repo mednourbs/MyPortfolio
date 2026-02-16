@@ -22,7 +22,12 @@ const About = () => {
         <div style={styles.cvSection}>
           <h3 style={styles.subtitle}>{t('about.cvTitle', lang)}</h3>
           <img 
-            src={lang === 'en' ? '/media/CV-En.jpg' : '/media/CV-Fr.jpg'} 
+            src={lang === 'en' ? '/media/CV-En1.jpg' : '/media/CV-Fr1.jpg'} 
+            alt={lang === 'en' ? 'CV Mohamed Nour Ben Salah' : 'CV Mohamed Nour Ben Salah'} 
+            style={styles.cvImage}
+          />
+          <img 
+            src={lang === 'en' ? '/media/CV-En2.jpg' : '/media/CV-Fr2.jpg'} 
             alt={lang === 'en' ? 'CV Mohamed Nour Ben Salah' : 'CV Mohamed Nour Ben Salah'} 
             style={styles.cvImage}
           />

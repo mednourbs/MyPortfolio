@@ -8,6 +8,11 @@ const Home = () => {
   return (
     <section id="home" style={styles.section}>
       <div style={styles.container}>
+        <img 
+          src="/media/NourPhoto.jpg" 
+          alt="Mohamed Nour Ben Salah" 
+          style={styles.profileImage}
+        />
         <h1 style={styles.title}>{t('hero.title', lang)}</h1>
         <p style={styles.subtitle}>{t('hero.subtitle', lang)}</p>
         <a href="/projects" style={styles.cta}>
@@ -28,6 +33,15 @@ const styles = {
     color: '#fff'
   },
   container: { textAlign: 'center', maxWidth: '800px', padding: '0 1.5rem' },
+  profileImage: {
+    width: '400px',
+    height: '400px',
+    borderRadius: '50%',
+    objectFit: 'cover',
+    border: '4px solid #49171bff',
+    marginBottom: '2rem',
+    boxShadow: '0 8px 16px rgba(255, 71, 87, 0.3)'
+  },
   title: { fontSize: '2.5rem', marginBottom: '1rem' },
   subtitle: { fontSize: '1.2rem', opacity: 0.8, marginBottom: '2rem' },
   cta: {
